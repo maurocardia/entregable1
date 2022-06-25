@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  width: 55%;
+  height: 42%;
+  background-color: white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.719);
+  
+
+}
+
+.containerHead{
+  display: flex;
+
+}
+
+h1{
+  font-size: 170px;
+  font-family: 'Staatliches', cursive;
+  height: 110px;
+}
+
+.phrase{
+  padding-top: 2.5rem;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  text-align: right;
+  max-height: 110px;
+}
+
+.author{
+  margin-top: 1rem;
+  text-align: right;
+  padding-right: 1rem;
+  font-style: italic;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.containerButton{
+  margin-top: 1rem;
+  width: 94%;
+  text-align: right;
+  
+}
+
+.button{
+  height: 2.1rem;
+  width: 2.1rem;
+  border-radius: 50%;
+  animation-delay: 3s;
+  box-shadow:  1px 1px 2px rgb(0, 0, 1);
+  border-style: none;
+
+  
+
+}
+
+.button:hover{
+  
+  box-shadow:  1px 1px 10px rgb(0, 0, 1);
+}
+
+p{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.button > i{
+  color: white;
+}
