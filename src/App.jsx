@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import QuoteBox from './components/QuoteBox '
+import QuoteBox from './QuoteBox '
 import './App.css'
-import quotes from './quotes.json'
-import ButtomQuote from './components/ButtomQuote'
+import quotes from "./quotes.json"
+import ButtomQuote from './ButtomQuote'
 
 const palettColors=["#845EC2","#D65DB1","#FF6F91","#FF9671","#FFC75F","#F9F871"]
 

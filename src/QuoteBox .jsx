@@ -1,8 +1,8 @@
 import React from 'react';
-import quotes from '/Users/mauricio carvajal/reack/entregable1/entregable1/src/quotes.json'
+import quotes from "./quotes.json"
 
 const QuoteBox  = ({randomColor, change}) => {
-    return (
+    return ( 
         <div>
             <div className='containerHead'>
                 <h1 style={{color: randomColor}}>“</h1>
